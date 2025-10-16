@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx/24"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="example.csvtosheet.controller.CsvController"
+      alignment="CENTER"
+      spacing="10"
+      style="-fx-padding: 10;"
+      prefWidth="500"
+      prefHeight="250">
+
+    <Button fx:id="browseFileButton" text="Choose transaction .csv file..." />
+
+    <Label fx:id="messageLabel" text="Status messages appear here" />
+
+    <ComboBox fx:id="spreadsheetComboBox" promptText="Select a spreadsheet" prefWidth="400" />
+
+</VBox>

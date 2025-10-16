@@ -1,0 +1,15 @@
+# IntelliJ project files
+.idea/
+*.iml
+
+# Build output
+out/
+target/
+
+# Logs and temp
+*.log
+
+# API credentials (important!)
+credentials.json
+**/credentials.json
+**/token.json
